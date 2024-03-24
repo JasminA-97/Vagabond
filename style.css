@@ -6,6 +6,11 @@
 .section-spacing{
     padding:100px 0;
 }
+.nav-link:hover{
+    color:black;
+    font-size: medium;
+    font-weight: 600;
+}
 
 .carousel-item{
     height:100vh;
@@ -49,57 +54,7 @@
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* about me */
-.rows{
-    display:flex;
-    height:600px;
-    justify-content:space-between;
-    align-items:center;
-    position:relative;
-    border:1px solid;
-    border-color:white;
-    
-}
-.leftcol{
-    height:600px; 
-    width:50%;
-    z-index:2;
-    border:solid 1px;
-    border-color:#faf5f5;
-    position:absolute;
-    bottom:0;
-    right:46.875%;   
-} 
-.profile-img{
-    width:450px;
-    height:500px;
-    position:absolute;
-    bottom:0;
-    right:0;
- }
-.rightcol {
-    height:600px; 
-    width:50%;
-    z-index:1;
-    border:solid 1px;
-    border-color:#faf5f5;
-    position:absolute;
-    top:0;
-    left:46.875%;  
-}
-.description{
-    height:550px;
-    width:450px;
-    padding-left:18%;
-    padding-right:10px;
-    text-align:left; 
-    position:absolute;
-    top:0;
-    left:0;
-    background-color:#faf5f5;
-    box-shadow:10px 10px 10px;
-    
-}
+/*  */
  .icon{
     text-decoration:none;
     color:white;
@@ -131,53 +86,4 @@
         width: 100%;
     }
 
-    .rows{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        border:1px solid;
-        border-color:white;
-        position:relative;
-        width: 100%;
-        height: 1200px;
-        
-    }
-
-    .leftcol{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-       position:absolute;
-       top:-5%;
-       width:100%;
-       margin-right:5% ;
-  
-          
-    } 
-    .profile-img{
-        width: 100%;;
-        height:500px;
-        
-     }
-     .rightcol {
-        position:absolute;
-        top:650px;
-        left:0%;
-        width:100%;
-        
-   
-    }
-    .description{
-        height:550px;
-        width: 100%;;
-        
-        padding:10px;
-        text-align:left; 
-        
-        background-color:#faf5f5;
-        box-shadow:10px 10px 10px;
-        
-    }
-    
 }
